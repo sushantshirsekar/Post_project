@@ -1,0 +1,22 @@
+.card{
+    width: 30vw;
+    text-align: center;
+    margin: 20px;
+    width: 30vw;
+    height: 8vw;
+    border: 1px solid black;
+    display: inline-table;
+}
+.homeContainer{
+    /* display: flex; */
+    justify-content: center;
+}
+.viewButton{
+    padding: 5px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}

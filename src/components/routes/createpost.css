@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+.header{
+    text-align: center;
+}
+.form-label{
+ font-size: larger;   
+}
+.form-data{
+    text-align: center;
+}
+.inputs{
+    text-align: center;
+    color: black;
+}
+#description{
+    height: 150px;
+    width: 35vw;
+}
+#title{
+    height: 50px;
+    width: 35vw;
+}
+.blogAdder{
+    padding: 10px;
+    background-color: rgb(58, 58, 58);
+    border: 0.4px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.blogbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer{
+    margin: 30px;
+}

@@ -1,0 +1,66 @@
+.tableColumn{
+    border: 1px solid black;
+}
+
+.tableData{
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.tableContainer{
+    display: d-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBtnHistory{
+    background-color: rgb(255, 54, 54);
+    padding: 5px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.editBtnHistory{
+    background-color: skyblue;
+    padding: 5px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.headerHistory{
+    text-align: center;
+    margin: 20px;
+}
+.addButton{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.editButton{
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.viewButton{
+    padding: 5px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}

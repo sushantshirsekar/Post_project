@@ -1,0 +1,54 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30vw;
+    margin: auto;
+    margin-top: 20px;
+}
+.form-data{
+    padding: 20px;
+    text-align: center;
+}
+.form-inputs{
+    margin: 10px ;
+    padding: 10px;
+    color: black;
+}
+
+.form-header{
+    text-align: center;
+    border-bottom: 0.5px solid gray;
+}
+
+.form-button{
+    background-color:  rgb(58, 58, 58);
+    padding: 10px;
+    border: 0.4px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.status-data{
+    margin: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#password{
+    text-align: center;
+    color: black;
+}
+#email{
+    text-align: center;
+    color: black;
+
+}
+#cpassword{
+    text-align: center;
+    color: black;
+
+}
+
