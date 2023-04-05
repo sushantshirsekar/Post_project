@@ -13,3 +13,4 @@ To run this project follow the following steps -
     iv)npm install @reduxjs/toolkit
 6. Once all the dependencies has gotten install run npm start
 7. Project will be opened in the browser
+8. To login into admin account email -> admin@123.com  password -> admin123
