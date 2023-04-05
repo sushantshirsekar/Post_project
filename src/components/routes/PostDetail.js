@@ -51,7 +51,7 @@ const PostDetail = () => {
                 cursor: "pointer",
               }}
             >
-              Home
+              {admin ? "Admin Panel" : "Home" }
             </button>
           </div>
         </div>

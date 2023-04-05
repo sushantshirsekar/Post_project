@@ -14,7 +14,7 @@ const Admin = () => {
   const titleRef = useRef();
   const descriptionRef = useRef();
   const emailRef = useRef(); 
-  const [addPost, setAddPost] = useState(localStorage.getItem("add") || false);
+  const [addPost, setAddPost] = useState(JSON.parse(localStorage.getItem("add")) || false);
   const [editStatus, updateStatus] = useState(
     JSON.parse(localStorage.getItem("edit")) || false
   );
@@ -170,7 +170,7 @@ const Admin = () => {
           </form>
         </div>
       )}
-      {editStatus && (
+      {editStatus===true && (
         <div
           style={{ display: "flex", justifyContent: "center", margin: "20px" }}
         >
@@ -190,13 +190,13 @@ const Admin = () => {
           <div>
             <button className="addButton" onClick={logoutAdmin}>Log Out</button>
           </div>
-          {!editStatus && (
+          {editStatus===false && (
             <div style={{ display: "flex", justifyContent: "center", marginLeft:"10px" }}>
               <button
                 className="addButton"
                 onClick={addPost ? hideAddHandler : addHandler}
               >
-                {addPost? "Hide": "Show"}
+                {addPost ? "Hide": "Show"}
               </button>
             </div>
           )}

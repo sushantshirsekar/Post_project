@@ -40,6 +40,8 @@ const SignUp = () => {
     if(status){
       if(emailRef.current.value ==="admin@123.com" && passwordRef.current.value==="admin123"){
         dispatch(postActions.adminLogin()); 
+        localStorage.removeItem("title"); 
+        localStorage.removeItem("description");
         nav("/admin");
         return;
       }
